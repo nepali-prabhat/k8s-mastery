@@ -2,10 +2,15 @@
 Submissions of Prabhat Pandey (prabhatp)
 
 ## Steps taken to get application working on GKE
-- Updated Dockerfile in sa-webapp:
+- Updates in sa-webapp:
     - Separate build stage and run stage
     - Use maven image in the build stage. User openjdk in the run stage
-- 
+- Updates in sa-frontend:
+    - Update the package-lock file to latest version
+    - Added .dockerignore file
+    - Separate build stage and run stage
+- Updates in sa-logic
+    - 
 
 ## DockerHub images created
 These are public dockerhub images: 
