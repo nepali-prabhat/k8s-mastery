@@ -6,7 +6,7 @@ metadata:
     app: sa-frontend                                 # 2
 spec:                                                # 3
   containers:
-    - image: northamerica-northeast2-docker.pkg.dev/cmu-14848-471600/homeworks-14848/prabhatcheesecake/hw3-sa-frontend:v1.0.1
+    - image: northamerica-northeast2-docker.pkg.dev/cmu-14848-471600/homeworks-14848/prabhatcheesecake/hw3-sa-frontend:v1.0.4
       name: sa-frontend                              # 5
       ports:
         - containerPort: 80                          # 6
