@@ -1,6 +1,9 @@
 # Stage 1: Build static files
 FROM node:alpine3.22 AS builder
+
 WORKDIR /app
+ENV NODE_ENV=production
+
 COPY . .
 
 RUN npm install
