@@ -21,7 +21,7 @@ spec:
         app: sa-logic
     spec:
       containers:
-        - image: rinormaloku/sentiment-analysis-logic
+        - image: northamerica-northeast2-docker.pkg.dev/cmu-14848-471600/homeworks-14848/prabhatcheesecake/hw3-sa-logic:v1.0.1
           imagePullPolicy: Always
           name: sa-logic
           ports:
