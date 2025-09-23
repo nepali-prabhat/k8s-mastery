@@ -19,6 +19,6 @@ These are public dockerhub images:
 - https://hub.docker.com/repository/docker/prabhatcheesecake/hw3-sa-logic
 
 ## Video recordings of the submission
-- 
--
+- App running on the GKE
+- Code walkthrough
 
