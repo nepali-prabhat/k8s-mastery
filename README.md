@@ -9,8 +9,7 @@ Submissions of Prabhat Pandey (prabhatp)
     - Update the package-lock file to latest version
     - Added .dockerignore file
     - Dockerfile: Separate build stage and run stage
-- Updates in sa-logic
-    - 
+    - fetch url: Dynamically choose the webapp url based on NODE_ENV
 
 ## DockerHub images created
 These are public dockerhub images: 
