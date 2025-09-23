@@ -20,7 +20,7 @@ class App extends Component {
     };
 
     analyzeSentence() {
-        fetch(process.env.NODE_ENV==="production"? "34.130.129.106:8080/sentiment" : 'http://localhost:8080/sentiment', {
+        fetch(process.env.NODE_ENV==="production"? "http://34.130.129.106:8080/sentiment" : 'http://localhost:8080/sentiment', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
