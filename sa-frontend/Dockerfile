@@ -2,7 +2,6 @@
 FROM node:alpine3.22 AS builder
 
 WORKDIR /app
-ENV NODE_ENV=production
 
 COPY . .
 
